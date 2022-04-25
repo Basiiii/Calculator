@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   var userInput = '';
   var answer = '';
 
-// Array of button
+  // Array of buttons
   final List<String> buttons = [
     'C',
     '+/-',
@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Calculator"),
+        title: const Text("Calculadora"),
       ), //AppBar
       backgroundColor: Colors.white38,
       body: Column(
